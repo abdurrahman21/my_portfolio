@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="About Abdurrahman: freelance web developer focused on clean, minimal, and responsive sites."
+    />
+    <title>About me — Abdurrahman</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Georgia', 'Times', 'Times New Roman', 'serif'],
+            },
+            fontSize: {
+              'fluid-hero': [
+                'clamp(2rem, 4vw + 1rem, 2.75rem)',
+                { lineHeight: '1.15' },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body
+    class="min-h-screen bg-slate-50 text-slate-900 font-serif text-base leading-relaxed antialiased"
+  >
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-40 border-b border-slate-200 bg-slate-50/90 backdrop-blur"
+    >
+      <div
+        class="mx-auto flex max-w-3xl items-center justify-between px-4 py-3 sm:px-6"
+      >
+        <a
+          class="inline-flex items-center gap-2 text-slate-900 no-underline"
+          href="index.html"
+        >
+          <span
+            class="grid h-9 w-9 place-items-center rounded-full border border-slate-200 bg-white text-sm"
+            >A</span
+          >
+          <span class="tracking-wide">Abdur Rahman</span>
+        </a>
+
+        <nav class="flex items-center gap-2 text-sm text-slate-600">
+          <a
+            class="rounded-full border border-slate-200 bg-white px-3 py-1 text-slate-900"
+            href="about.html"
+            aria-current="page"
+            >About me</a
+          >
+          <a
+            class="rounded-full px-3 py-1 hover:bg-white hover:border hover:border-slate-200"
+            href="services.html"
+            >Services</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="py-14 sm:py-20">
+      <div class="mx-auto max-w-3xl px-4 sm:px-6">
+        <!-- Hero -->
+        <header class="mb-12">
+          <p
+            class="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500"
+          >
+            About
+          </p>
+
+          <h1 class="text-fluid-hero font-medium tracking-tight text-slate-900">
+            Focused web solutions built with clarity and care.
+          </h1>
+
+          <p
+            class="mt-6 max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed"
+          >
+            I work with individuals and growing teams to turn ideas into clean,
+            responsive websites. My focus is on clarity, performance, and
+            maintainability — so your website not only looks good, but works
+            beautifully and lasts.
+          </p>
+        </header>
+
+        <!-- What I Do -->
+        <section class="border-t border-slate-200 pt-10">
+          <h2
+            class="text-2xl sm:text-xl font-semibold tracking-tight text-slate-900"
+          >
+            What I do
+          </h2>
+
+          <div
+            class="mt-5 space-y-5 max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed"
+          >
+            <p>
+              I design and build front-end experiences that feel calm and
+              purposeful. Every project prioritizes readability, performance,
+              and accessibility — ensuring your site works smoothly across
+              devices and for all users.
+            </p>
+
+            <p>
+              Whether you’re launching something new or improving an existing
+              site, I refine layout, typography, responsiveness, and structure
+              without losing your brand’s voice.
+            </p>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mt-12 border-t border-slate-200 pt-10">
+          <h2
+            class="text-2xl sm:text-xl font-semibold tracking-tight text-slate-900"
+          >
+            Skills
+          </h2>
+
+          <ul class="mt-5 flex flex-wrap gap-3 text-slate-700">
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              Semantic HTML & Structured Layouts
+            </li>
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              Responsive & Modern CSS
+            </li>
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              JavaScript for Thoughtful Interactions
+            </li>
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              Accessibility (WCAG Principles)
+            </li>
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              Performance Optimization (Core Web Vitals)
+            </li>
+            <li
+              class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm"
+            >
+              Clean, Maintainable Code & Clear Handoff
+            </li>
+          </ul>
+        </section>
+
+        <!-- How I Work -->
+        <section class="mt-12 border-t border-slate-200 pt-10">
+          <h2
+            class="text-2xl sm:text-xl font-semibold tracking-tight text-slate-900"
+          >
+            How I work
+          </h2>
+
+          <ol
+            class="mt-5 list-decimal space-y-4 pl-5 max-w-2xl text-base sm:text-lg text-slate-600"
+          >
+            <li>
+              <strong>Understand</strong> — Align on goals, audience, and
+              expectations.
+            </li>
+            <li>
+              <strong>Structure</strong> — Plan a clean layout with strong
+              typography and spacing.
+            </li>
+            <li>
+              <strong>Build</strong> — Develop a responsive, accessible, and
+              performant solution.
+            </li>
+            <li>
+              <strong>Refine</strong> — Test, optimize, and deliver with clarity
+              and documentation.
+            </li>
+          </ol>
+        </section>
+
+        <!-- Why Work With Me -->
+        <section class="mt-12 border-t border-slate-200 pt-10">
+          <h2
+            class="text-2xl sm:text-xl font-semibold tracking-tight text-slate-900"
+          >
+            Why work with me
+          </h2>
+
+          <ul
+            class="mt-5 list-disc space-y-3 pl-5 max-w-2xl text-base sm:text-lg text-slate-600"
+          >
+            <li>Clear communication and regular updates</li>
+            <li>Thoughtful attention to detail</li>
+            <li>Performance-focused development</li>
+            <li>Clean, maintainable code</li>
+            <li>Reliable delivery</li>
+          </ul>
+        </section>
+
+        <!-- CTA -->
+        <section
+          class="mt-14 rounded-2xl border border-slate-200 bg-white px-6 py-8"
+        >
+          <h2
+            class="text-2xl sm:text-xl font-semibold tracking-tight text-slate-900"
+          >
+            Next step
+          </h2>
+
+          <p
+            class="mt-4 max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed"
+          >
+            If you’d like to work together, start by reviewing my services and
+            sending a short message outlining your goals and timeline.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-4">
+            <a
+              class="rounded-full bg-slate-900 px-5 py-2.5 text-base font-medium text-white hover:bg-black"
+              href="services.html"
+              >View services</a
+            >
+            <a
+              class="rounded-full border border-slate-200 bg-white px-5 py-2.5 text-base font-medium text-slate-900 hover:bg-slate-50"
+              href="mailto:hello@yourdomain.com"
+              >Email me</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 py-8">
+      <div
+        class="mx-auto flex max-w-3xl flex-wrap justify-between gap-4 px-4 text-base text-slate-600 sm:px-6"
+      >
+        <p>
+          Prefer email?
+          <a
+            class="font-medium text-slate-900 underline underline-offset-4"
+            href="mailto:hello@yourdomain.com"
+            >hello@yourdomain.com</a
+          >
+        </p>
+        <p class="text-slate-500">
+          © <span id="year"></span> Abdurrahman.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
